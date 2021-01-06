@@ -2,7 +2,7 @@
   "id": "practice_skipper",
   "name": "Practice Skipper",
   "version": "1.0.0",
-  "author": "Dan Rouse <dan@rouse.house>",
+  "author": "danrouse#0214",
   "description": [
     "Adds the ability to seek and change song while in practice mode"
   ],
@@ -26,6 +26,18 @@
       "installAction": {
         "installLibraryFile": "libbeatsaber-hook_0_8_4.so"
       }
-    }
+    },
+    {
+      "type": "HookModLibrary",
+      "installAction": {
+        "installLibraryFile": "libcustom-types.so"
+      }
+    },
+    {
+      "type": "HookModLibrary",
+      "installAction": {
+        "installLibraryFile": "libquestui.so"
+      }
+    },
   ]
 }

@@ -6,6 +6,7 @@ if ($?) {
         "./libs/arm64-v8a/libbeatsaber-hook_0_8_4.so", `
         "./libs/arm64-v8a/libcustom-types.so", `
         "./libs/arm64-v8a/libquestui.so", `
-        "./bmbfmod.json" `
+        "./bmbfmod.json", `
+        "cover.png" `
         -DestinationPath "./practice_skipper_v1.0.0.zip" -Update
 }
